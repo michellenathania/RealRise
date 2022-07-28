@@ -7,22 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E80A52DB2892EE7000381882 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80A52DA2892EE7000381882 /* DataController.swift */; };
+		E82512E02890DD5F0074498C /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E82512DA2890DD5F0074498C /* DMSans-Regular.ttf */; };
+		E82512E12890DD5F0074498C /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E82512DB2890DD5F0074498C /* DMSans-Bold.ttf */; };
+		E82512E32890DD5F0074498C /* DMSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E82512DD2890DD5F0074498C /* DMSans-Medium.ttf */; };
+		E82512E72890E34E0074498C /* FontsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82512E62890E34E0074498C /* FontsManager.swift */; };
+		E82512EB2891013E0074498C /* LearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82512EA2891013E0074498C /* LearnView.swift */; };
+		E82512ED289101D00074498C /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82512EC289101D00074498C /* AddView.swift */; };
+		E82512EF28910C7D0074498C /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82512EE28910C7D0074498C /* LessonView.swift */; };
+		E82512F128910CB80074498C /* StreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82512F028910CB80074498C /* StreakView.swift */; };
+		E82512F4289246100074498C /* HalfASheet in Frameworks */ = {isa = PBXBuildFile; productRef = E82512F3289246100074498C /* HalfASheet */; };
 		E86C42CE288FC9C20019376F /* RealRiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86C42CD288FC9C20019376F /* RealRiseApp.swift */; };
-		E86C42D0288FC9C20019376F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86C42CF288FC9C20019376F /* ContentView.swift */; };
 		E86C42D2288FC9C40019376F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E86C42D1288FC9C40019376F /* Assets.xcassets */; };
 		E86C42D5288FC9C40019376F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E86C42D4288FC9C40019376F /* Preview Assets.xcassets */; };
-		E86C42D7288FC9C40019376F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86C42D6288FC9C40019376F /* Persistence.swift */; };
 		E86C42DA288FC9C40019376F /* RealRise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E86C42D8288FC9C40019376F /* RealRise.xcdatamodeld */; };
+		E86C42E1288FCA8F0019376F /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86C42E0288FCA8F0019376F /* TabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E80A52DA2892EE7000381882 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		E82512DA2890DD5F0074498C /* DMSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Regular.ttf"; sourceTree = "<group>"; };
+		E82512DB2890DD5F0074498C /* DMSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Bold.ttf"; sourceTree = "<group>"; };
+		E82512DD2890DD5F0074498C /* DMSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Medium.ttf"; sourceTree = "<group>"; };
+		E82512E52890E2960074498C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E82512E62890E34E0074498C /* FontsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsManager.swift; sourceTree = "<group>"; };
+		E82512EA2891013E0074498C /* LearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnView.swift; sourceTree = "<group>"; };
+		E82512EC289101D00074498C /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		E82512EE28910C7D0074498C /* LessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
+		E82512F028910CB80074498C /* StreakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakView.swift; sourceTree = "<group>"; };
 		E86C42CA288FC9C20019376F /* RealRise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealRise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E86C42CD288FC9C20019376F /* RealRiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealRiseApp.swift; sourceTree = "<group>"; };
-		E86C42CF288FC9C20019376F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E86C42D1288FC9C40019376F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E86C42D4288FC9C40019376F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E86C42D6288FC9C40019376F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		E86C42D9288FC9C40019376F /* RealRise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RealRise.xcdatamodel; sourceTree = "<group>"; };
+		E86C42E0288FCA8F0019376F /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,12 +48,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E82512F4289246100074498C /* HalfASheet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E82512D82890DD2A0074498C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E82512DB2890DD5F0074498C /* DMSans-Bold.ttf */,
+				E82512DD2890DD5F0074498C /* DMSans-Medium.ttf */,
+				E82512DA2890DD5F0074498C /* DMSans-Regular.ttf */,
+				E82512E62890E34E0074498C /* FontsManager.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		E86C42C1288FC9C20019376F = {
 			isa = PBXGroup;
 			children = (
@@ -55,12 +85,18 @@
 		E86C42CC288FC9C20019376F /* RealRise */ = {
 			isa = PBXGroup;
 			children = (
-				E86C42CD288FC9C20019376F /* RealRiseApp.swift */,
-				E86C42CF288FC9C20019376F /* ContentView.swift */,
-				E86C42D1288FC9C40019376F /* Assets.xcassets */,
-				E86C42D6288FC9C40019376F /* Persistence.swift */,
-				E86C42D8288FC9C40019376F /* RealRise.xcdatamodeld */,
 				E86C42D3288FC9C40019376F /* Preview Content */,
+				E82512D82890DD2A0074498C /* Fonts */,
+				E82512E52890E2960074498C /* Info.plist */,
+				E86C42D1288FC9C40019376F /* Assets.xcassets */,
+				E86C42CD288FC9C20019376F /* RealRiseApp.swift */,
+				E86C42D8288FC9C40019376F /* RealRise.xcdatamodeld */,
+				E86C42E0288FCA8F0019376F /* TabBarView.swift */,
+				E82512EA2891013E0074498C /* LearnView.swift */,
+				E82512EC289101D00074498C /* AddView.swift */,
+				E82512F028910CB80074498C /* StreakView.swift */,
+				E82512EE28910C7D0074498C /* LessonView.swift */,
+				E80A52DA2892EE7000381882 /* DataController.swift */,
 			);
 			path = RealRise;
 			sourceTree = "<group>";
@@ -89,6 +125,9 @@
 			dependencies = (
 			);
 			name = RealRise;
+			packageProductDependencies = (
+				E82512F3289246100074498C /* HalfASheet */,
+			);
 			productName = RealRise;
 			productReference = E86C42CA288FC9C20019376F /* RealRise.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +156,9 @@
 				Base,
 			);
 			mainGroup = E86C42C1288FC9C20019376F;
+			packageReferences = (
+				E82512F22892460F0074498C /* XCRemoteSwiftPackageReference "HalfASheet" */,
+			);
 			productRefGroup = E86C42CB288FC9C20019376F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -131,8 +173,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E82512E32890DD5F0074498C /* DMSans-Medium.ttf in Resources */,
+				E82512E12890DD5F0074498C /* DMSans-Bold.ttf in Resources */,
 				E86C42D5288FC9C40019376F /* Preview Assets.xcassets in Resources */,
 				E86C42D2288FC9C40019376F /* Assets.xcassets in Resources */,
+				E82512E02890DD5F0074498C /* DMSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,9 +188,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E82512F128910CB80074498C /* StreakView.swift in Sources */,
+				E82512E72890E34E0074498C /* FontsManager.swift in Sources */,
+				E82512EF28910C7D0074498C /* LessonView.swift in Sources */,
+				E82512EB2891013E0074498C /* LearnView.swift in Sources */,
+				E86C42E1288FCA8F0019376F /* TabBarView.swift in Sources */,
+				E80A52DB2892EE7000381882 /* DataController.swift in Sources */,
 				E86C42DA288FC9C40019376F /* RealRise.xcdatamodeld in Sources */,
-				E86C42D7288FC9C40019376F /* Persistence.swift in Sources */,
-				E86C42D0288FC9C20019376F /* ContentView.swift in Sources */,
+				E82512ED289101D00074498C /* AddView.swift in Sources */,
 				E86C42CE288FC9C20019376F /* RealRiseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +328,7 @@
 				DEVELOPMENT_TEAM = TL3UN64J7X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RealRise/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +358,7 @@
 				DEVELOPMENT_TEAM = TL3UN64J7X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RealRise/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -347,6 +399,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E82512F22892460F0074498C /* XCRemoteSwiftPackageReference "HalfASheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/franklynw/HalfASheet";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E82512F3289246100074498C /* HalfASheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E82512F22892460F0074498C /* XCRemoteSwiftPackageReference "HalfASheet" */;
+			productName = HalfASheet;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		E86C42D8288FC9C40019376F /* RealRise.xcdatamodeld */ = {
